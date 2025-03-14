@@ -64,7 +64,7 @@ def search_internet(query):
         return ["Error: Could not fetch search results"]
 
 # Streamlit UI
-st.title("Clive AI Assistant")
+st.title("B2B AI Assistant")
 
 option = st.radio("Choose a feature:", ["Email Assistant", "Schedule Manager", "Internet Search"])
 
